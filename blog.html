@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/blog.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Foldit:wght@553&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav style="background-color: #423d3d; height: 100px;">
+        <div style="display: flex; align-items: center; height: 100%; margin-left: 40px; margin-right: 40px;">
+            <ul style="display: flex; list-style: none; gap: 100px; align-items: center;">
+                <li>
+                    <img style="height: 90px;" src="logo dumbways.png" alt="ini logo? iya logo yang di kiri atas mentoks">
+                </li>
+                <li class="nav-link">
+                    <a href="index.html"><b>Home</b></a>
+                </li>
+                <li class="nav-link">
+                    <a href="myproject.html"><b>My&nbsp;Project</b></a>
+                </li>
+            </ul>
+            <div style="display: flex; width: 100%; justify-content: end;">
+                <a href="contact.html" class="custom-button"><b>Contact Me</b></a>
+    
+            </div>
+        </div>
+        <!-- bagian head sudah siap -->
+
+        <div class="blog">
+        <div class="blog-form">
+            <div class="form-container">
+                <form onsubmit="submitBlog(event)">
+                    <h1>Create Post Blog</h1>
+                    <div>
+                        <label for="title">Title</label>
+                        <input type="text" id="inputTitle">
+                    </div>
+                    <div>
+                        <label for="content">Content</label>
+                        <textarea id="inputContent"></textarea>
+                    </div>
+                    <div>
+                        <label for="image">Upload Image</label>
+                        <input type="file" id="inputImage">
+                    </div>
+                    <div class="button-input">
+                        <button>Post Blog</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <hr class="line">
+        <div id="content" class="blog-list">
+
+        </div>
+    </div>
+
+    <script src="assets/js/blog.js"></script>
+
+</body>
+</html>
+        
+
+        

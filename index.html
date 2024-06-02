@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INI HALAMAN DEPAN</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="/css/.css">
+    <script src="https://kit.fontawesome.com/a8c9218c8f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        .image-container {
+            position: relative;
+            width: 25%;
+            text-align: center;
+            background-color: #f8f4f4;
+            border-radius: 7px;
+            margin-right: 0px;
+            box-shadow: 0 4px 8px 0 rgba(255, 182, 193, 0.6), 0 6px 20px 0 rgba(255, 182, 193, 0.6); /* Shadow box dengan warna merah jambu */
+        }
+
+        .image-container img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav style="background-color: #423d3d; height: 100px;">
+        <div style="display: flex; align-items: center; height: 100%; margin-left: 40px; margin-right: 40px;">
+            <ul style="display: flex; list-style: none; gap: 100px; align-items: center; width: 100%;">
+                <li>
+                    <img style="height: 90px;" src="logo dumbways.png" alt="ini logo">
+                </li>
+                <li class="nav-link">
+                    <a href="index.html"><b>Home</b></a>
+                </li>
+                <li class="nav-link">
+                    <a href="myproject.html"><b>My Project</b></a>
+                </li>
+            </ul>
+
+            <div style="display: flex; width: 100%; justify-content: end;">
+                <a href="contact.html" class="custom-button"><b>Contact Me</b></a>
+            </div>
+        </div>
+    </nav>
+   <!-- Container baru untuk membungkus teks dan gambar -->
+   <div style="
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 1100px;
+   margin: 120px auto;
+   padding: 40px 20px; 
+   background-color: #fcfdfc; 
+   border-radius: 7px; 
+">
+   <!-- Div untuk teks -->
+   <div style="
+     width: 50%;
+     margin-right: 50px ;
+     text-align: left;
+   ">
+       <!-- Header -->
+       <h1 style="font-size: 1.5em; margin-bottom: 15px;">Hi, Welcome to my project</h1>
+       
+       <!-- Isi Pesan -->
+       <p style="text-align: justify; padding-bottom: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+       <!-- Buttons Contact & Download CV -->
+       <div style="display: flex; justify-content: flex-start; gap: 15px; margin-bottom: 20px; padding-bottom: 5px;">
+           <!-- Button Contact -->
+           <button type="button"
+               onclick="window.location.href = 'https:netflix.com'"
+               style="background-color: #111727;
+               color: white;
+               border-radius: 15px;
+               padding: 5px 15px;
+               border: none;
+               cursor: pointer;
+               text-align: center;
+               font-family: 'Poppins', Arial, sans-serif; font-size: 15px;
+           ">Contact</button>
+
+           <!-- Donwload CV -->
+           <a href="" download="CV.txt" 
+               style="background-color: rgb(243, 243, 243);
+               color: #111727;
+               border-radius: 15px;
+               padding: 10px 10px;
+               text-decoration: none;
+               font-size: 15px;
+               border: 0px solid black;"
+               onmouseover="this.style.backgroundColor='rgb(204, 210, 212)';"
+               onmouseout="this.style.backgroundColor='rgb(243, 243, 243)';">
+               Download CV <i class="fas fa-download"></i></a>
+       </div>
+
+       
+       <div style="display: flex; justify-content: left; gap: 15px; margin-bottom: 15px;">
+           <a href="https://www.linkedin.com/in/rifkalh/" target="_blank"><i class="fab fa-linkedin" style="font-size: 1.2em; color: black; cursor: pointer;"></i></a>
+           <a href="https://instagram.com/rifkalh_" target="_blank"><i class="fab fa-instagram" style="font-size: 1.2em; color: black; cursor: pointer;"></i></a>
+           <a href="https://facebook.com/rifkalh" target="_blank"><i class="fab fa-facebook" style="font-size: 1.2em; color: black; cursor: pointer;"></i></a>
+           <a href="https://twitter.com/rifkalh" target="_blank"><i class="fab fa-twitter" style="font-size: 1.2em; color: black; cursor: pointer;"></i></a>
+       </div>
+   </div>
+
+   
+   <div style="
+     width: 25%;
+     text-align: center;
+     background-color: #f8f4f4;
+     border-radius: 7px;
+     margin-right: 0px;
+   ">
+       <img src="assets/img/foto/foto.webp" 
+           alt="my photo" 
+           style="width: 100%; border-radius: 5px; margin-bottom: 5px;">
+       <h1 style="margin: 5px 0; font-size: 1.2em;">Rifky Alkhairi</h1>
+       <p style="margin: 5px 0;padding-bottom: 10px; color: #b32f5b; font-weight: 500;">Full Stack Developer</p>
+   </div>
+</div>
+</body>
+</html>
